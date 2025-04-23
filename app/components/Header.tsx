@@ -13,7 +13,7 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="sticky top-2 z-10 h-full w-full mx-auto">
-      <Section className="bg-accent/50 rounded-md backdrop-blur-md">
+      <Section className="bg-background/50 rounded-md backdrop-blur-md">
         <div className="flex items-center justify-between p-2">
           {/* Logo */}
           <a

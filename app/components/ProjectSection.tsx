@@ -67,7 +67,6 @@ export const ProjectSection = () => {
   return (
     <Section className="mt-20 flex flex-col justify-center z-20 gap-6">
       {/* Colonne Projets */}
-      <Card className="w-full shadow-xl">
         <CardHeader>
           <CardTitle>
             <div className="flex items-center gap-2">
@@ -115,10 +114,9 @@ export const ProjectSection = () => {
             ))}
           </div>
         </CardContent>
-      </Card>
 
       {/* Colonne Jobs + Contact */}
-      <div className="flex lg:flex-row flex-col gap-6">
+      <div className="mt-7 flex lg:flex-row flex-col gap-6">
         {/* Derniers Jobs */}
         <Card className="shadow-xl w-full">
           <CardHeader>
@@ -126,7 +124,7 @@ export const ProjectSection = () => {
               <div className="flex items-center gap-2">
                 <Briefcase className="w-8 h-8 text-primary" />
                 <h1 className="text-2xl text-accent-foreground">
-                  Mes derniers jobs
+                  Mes derniers jobs (enlevez le card et créer des sous card. Les titres à la même taille que la section "Mes compétences")
                 </h1>
               </div>
             </CardTitle>
@@ -158,7 +156,7 @@ export const ProjectSection = () => {
               <div className="flex items-center gap-2">
                 <MailIcon className="w-8 h-8 text-primary" />
                 <h1 className="text-2xl text-accent-foreground">
-                  Contactez-moi
+                  Contactez-moi (enlevez le card et créer des sous card. Les titres à la même taille que la section "Mes compétences")
                 </h1>
               </div>
             </CardTitle>
